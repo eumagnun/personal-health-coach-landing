@@ -218,6 +218,13 @@ header.site-nav {
 
 /* ---------- Hero visual: before/after card ---------- */
 .hero-visual { position: relative; height: 420px; }
+.hero-visual-caption {
+  text-align: center;
+  font-size: 0.78rem;
+  color: var(--ink-faint);
+  margin-top: 14px;
+  letter-spacing: 0.02em;
+}
 .mock-card {
   position: absolute;
   border-radius: var(--radius);
@@ -405,7 +412,7 @@ footer { border-top: 1px solid var(--line); padding: 48px 0 36px; }
 .footer-brand img { width: 24px; height: 24px; }
 .footer-brand span { font-family: var(--font-display); font-weight: 600; }
 .footer-note { max-width: 480px; color: var(--ink-faint); font-size: 0.82rem; line-height: 1.6; margin-top: 10px; }
-.footer-links { display: flex; gap: 24px; }
+.footer-links { display: flex; flex-wrap: wrap; gap: 12px 24px; }
 .footer-links a { font-size: 0.88rem; color: var(--ink-soft); text-decoration: none; }
 .footer-links a:hover { color: var(--cobalt); }
 .footer-bottom {
