@@ -1,6 +1,7 @@
-# Personal Health Coach — Landing Page
+# MedKalene — Landing Page
 
-Static marketing page for [Personal Health Coach](https://personal-health-coach-84.web.app), deployed via GitHub Pages.
+Static marketing page for [MedKalene](https://app.medkalene.com.br), deployed via GitHub Pages at
+https://medkalene.com.br.
 
 No build step — plain HTML/CSS/JS. To preview locally:
 
